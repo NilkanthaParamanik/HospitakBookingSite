@@ -1,0 +1,38 @@
+.login-form{
+  justify-content: center;
+  min-height: 90vh;
+  margin-top: 3vh;
+}
+.button-block{
+  width: 100%;
+}
+
+.login-background{
+  justify-content: center;
+  min-height: 30vh;
+  padding: 50px;
+}
+
+#patients {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  padding: 2%;
+}
+
+#patients td, #patients th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#patients tr:nth-child(even){background-color: #f2f2f2;}
+
+#patients tr:hover {background-color: #ddd;}
+
+#patients th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
